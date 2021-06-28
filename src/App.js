@@ -10,9 +10,7 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Switch>
-          <Route path='/' exact components = {Home} />
-        </Switch>
+        <Home />
       </Router>
     </>
   );
