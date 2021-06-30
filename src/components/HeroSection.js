@@ -8,37 +8,30 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <video src= '/videos/video-1.mp4' autoPlay loop muted />
-      
-      
       <h1>
-      
         <Typewriter
           onInit = {(typewriter) => {
           typewriter
-          .typeString("MY NAME IS LUCAS")
-          .callFunction(() => {
+            .typeString("MY NAME IS LUCAS")
+            .callFunction(() => {
           })
-          .pauseFor(4000)
-          .deleteAll()
-          .typeString("FULL STACK DEVELOPER")
-          .start();
+            .pauseFor(4000)
+            .deleteAll()
+            .typeString("FULL STACK DEVELOPER")
+            .start();
           typewriter
-          .typeString("")
-          .callFunction(() => {
+            .typeString("")
+            .callFunction(() => {
           })
-          .pauseFor(2000)
-          .deleteAll()
-          .typeString("MY NAME IS LUCAS")
-          .start();
-        }}
-       />
-
-
-        
+            .pauseFor(4000)
+            .deleteAll()
+            .typeString("MY NAME IS LUCAS")
+            .start();
+          }}
+         />
        </h1>
      
-     
-      <p>CAN I HELP YOU?</p>
+      <p>HOW CAN I HELP YOU?</p>
       <div className='hero-btns'>
         <Button
           className='btns'
@@ -51,7 +44,7 @@ function HeroSection() {
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
+          onClick={console.log('')}
         >
           CONTACT 
         </Button>
