@@ -40,11 +40,13 @@ function HeroSection() {
         >
           PROJECTS
         </Button>
+
         <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('')}
+          
+          
         >
           CONTACT 
         </Button>

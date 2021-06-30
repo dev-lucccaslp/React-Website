@@ -14,8 +14,8 @@ function App() {
         <Navbar />
           <Switch>
             <Home />
-            <Route path='/skills' components={Skills} />
-            <Route path='/projects' components={Projects} />
+            <Skills />
+            <Projects/>
         </Switch>
       </Router>
       
