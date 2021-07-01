@@ -61,13 +61,13 @@ function Navbar() {
                         </Link>
                     </li>    
                     <li className='nav-item'>
-                        <Link 
-                        to="/talk-to-me" 
+                        <a 
+                        href="#teste" 
                         className="nav-links-mobile"
                         onClick={closeMobileMenu}
                         >
                             Talk to me
-                        </Link>
+                        </a>
                     </li>
                 </ul>
                 { button && <Button buttonStyle ='btn--outline'>TALK TO ME</Button>}
