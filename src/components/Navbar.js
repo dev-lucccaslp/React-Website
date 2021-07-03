@@ -62,7 +62,7 @@ function Navbar() {
                     </li>    
                     <li className='nav-item'>
                         <a 
-                        href="#teste" 
+                        href="#ancora" 
                         className="nav-links-mobile"
                         onClick={closeMobileMenu}
                         >

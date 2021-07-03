@@ -4,8 +4,28 @@
   }
   
   h1 {
+    padding-top:20px;
     text-align: center;
     color: #fff;
+  }
+  
+  p {
+    display: flex;
+    justify-content: wrap;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+  }
+
+  .img_me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    border-radius:200px;
   }
   
   .cards__container {
@@ -20,7 +40,7 @@
   .cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
-    
+    width: 100%;
   }
   
   .cards__items {
@@ -38,7 +58,7 @@
     display: flex;
     flex-flow: column;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    box-shadow: 0 6px 20px rgba(72, 88, 117, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(255, 56, 56, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 126, 255, 0.281));
     border-radius: 10px;
@@ -65,10 +85,10 @@
     margin-left: 10px;
     padding: 6px 8px;
     max-width: calc((100%) - 60px);
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 700;
-    color: #fff;
-    background-color: rgba(2, 17, 68, 0.815);
+    color: #DDD;
+    background-color: rgba(37, 36, 36, 0.527);
     box-sizing: border-box;
    
   }
