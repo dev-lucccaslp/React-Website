@@ -1,6 +1,17 @@
+import SkillsPage from '../SkillsPage';
+import Cards from '../Cards'
+import Footer from '../Footer'
 import React from 'react';
 import '../../App.css';
 
+
 export default function Skills() {
-    return <h1 className="skills">SKILLS</h1>
+    return (
+    <>
+        <SkillsPage/>
+        <Cards/>
+        <Footer/>
+
+    </>
+    )
 }
