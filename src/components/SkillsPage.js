@@ -7,7 +7,7 @@ import './SkillsPage.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src= '/videos/video-1.mp4' autoPlay loop muted />
+      <video src= '/videos/skillsvideo1.mp4' autoPlay loop muted />
       <h1>
         <Typewriter
           onInit = {(typewriter) => {

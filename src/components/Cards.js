@@ -12,7 +12,7 @@ function Cards() {
             
             <p>My name is Lucas, I study programming since 2020, programming is an area that I fell in love with, I'm increasingly looking to improve my knowledge, I currently have knowledge in HTML, CSS, Javascript,React and node. I'm studying Systems Analysis and Development.</p>
             
-            <img className="img_me" src='images/ME.jpg'></img>
+            <img className="img_me" src='images/a.png'></img>
             <h1>COME MEET ME A LITTLE</h1>
             <div className="cards__container">
                <div className="cards__wrapper">
