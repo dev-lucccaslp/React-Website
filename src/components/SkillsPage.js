@@ -4,7 +4,7 @@ import '../App.css';
 import { Button } from './Button';
 import './SkillsPage.css';
 
-function HeroSection() {
+function SkillsPage() {
   return (
     <div className='hero-container'>
       <video src= '/videos/skillsvideo1.mp4' autoPlay loop muted />
@@ -49,4 +49,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default SkillsPage;
